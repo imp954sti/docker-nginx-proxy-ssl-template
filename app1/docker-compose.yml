@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  app1:
+    image: nginx:alpine
+    privileged: true
+    volumes:
+      - ./nginx/logs:/var/log/nginx
+      - ./nginx/public:/usr/share/nginx/html
+    environment:
+      VIRTUAL_HOST: example.com
+      LETSENCRYPT_HOST: example.com
+      LETSENCRYPT_EMAIL: mail@example.com
+    network_mode: bridge
+    restart: always
