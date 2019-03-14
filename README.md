@@ -1,7 +1,6 @@
 ## 概要
-[nginx-proxy](https://github.com/jwilder/nginx-proxy)
-[docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion)
-を使ってSSL対応のマルチドメイン環境を作るためのテンプレートです
+[nginx-proxy](https://github.com/jwilder/nginx-proxy)と[docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion)を使って  
+SSL対応のマルチドメイン環境を作るためのテンプレートです
 
 ## 使い方
 app1/docker-compose.ymlの編集
